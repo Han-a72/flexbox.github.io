@@ -1,0 +1,82 @@
+body{
+    background-image: url(background\ image.jpg);
+    
+
+}
+
+/* .body-container{opacity: 0.5;} */
+.container{
+ 
+    
+        background-color: rgba(211, 211, 211, 0.3); 
+        width: 260px; 
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        margin: 130px auto; 
+        border-radius: 10px;
+        text-align: center;
+        height: 260px; 
+    }
+    
+
+input[type=text]{
+    padding: 6px;
+    
+    border-radius: 3px;
+    color: rgb(202, 193, 193);
+    
+    background-color: rgb(187, 159, 159);
+    border: none;
+    cursor: pointer;
+    width: 230px;
+    height: 20px;
+}
+input[type=password]{
+    padding: 6px;
+    border-radius: 3px;
+    color:rgb(202, 193, 193);
+    
+    background-color: rgb(187, 159, 159);
+    border: none;
+    cursor: pointer;
+    width: 230px;
+    height: 20px;
+}
+button{
+    background-color: #075e5e;
+    width: 240px;
+    height: 30px;
+cursor: pointer;
+border: none;
+color: white;
+}
+
+input[type=checkbox]{
+    display: block;
+    position: relative;
+    right: 5px ;
+    top: -16px;
+    
+    cursor: pointer;
+
+   
+}
+
+p{
+margin-left: 130px;
+margin-top: -37px;
+color:rgb(76, 76, 162) ;
+}
+.header{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+bottom: 20px;
+}
+button:hover{
+background-color: #5f9494;
+}
+a {
+    text-decoration: none;
+}
